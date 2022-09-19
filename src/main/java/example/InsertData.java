@@ -30,6 +30,7 @@ public class InsertData extends HttpServlet {
 //                out.println(rs.getInt("id"));
 //                out.println(rs.getString("article"));
             }
+
         } catch(Exception e){
             System.out.println(e);
         }
